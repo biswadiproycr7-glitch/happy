@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday! • A Cinematic Journey</title>
+  <!-- Modern Premium Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Background Canvas for Cinematic Image Sequence -->
+  <div class="canvas-container">
+    <canvas id="birthday-canvas"></canvas>
+  </div>
+
+  <!-- Smooth Scroll Spacing -->
+  <div id="scroll-spacer"></div>
+
+  <!-- Premium Loading Screen Overlay -->
+  <div id="loading-overlay">
+    <div class="loading-content">
+      <h1 class="loading-title">Creating the Experience</h1>
+      <div class="progress-bar-container">
+        <div class="progress-bar-fill" id="progress-bar"></div>
+      </div>
+      <div class="loading-percentage" id="loading-percentage">0%</div>
+    </div>
+  </div>
+
+  <!-- Elegant Scroll Indicator -->
+  <div id="scroll-indicator" class="hidden">
+    <div class="indicator-text">Scroll to begin</div>
+    <div class="indicator-arrow">↓</div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
